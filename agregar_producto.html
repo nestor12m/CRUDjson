@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./build/css/estilos.css">
+    <title>Agregar Producto</title>
+</head>
+<body>
+
+    <!------------------------------------------------------------------------
+                                       header 
+        --------------------------------------------------------------------->
+
+    <header class="header">
+        <div>
+           <a href="index.html"> <img  class="img1" src="build/img/joystick.svg" alt=""></a>
+           <a href="index.html">   <img class="img2" src="build/img/alurageek.svg" alt=""></a>
+        </div>
+        <div>
+          <input class="input" type="search">
+        </div>
+        <button class="bnt_adm" ><a href="productos.html">Menu Administrador</a></button>
+        <div class="buscar"></div>
+    </header>
+
+
+        <main>
+    
+
+            
+     <!------------------------------------------------------------------------
+                                iniciar sesion
+        --------------------------------------------------------------------->
+
+   <section class="seccion_producto">
+
+     <h2>Agregar Nuevo Producto</h2>
+
+     <form action="" class="fomulario_adm">
+        <div class="div_input_adm">
+            <label for="" class="label_admin">Url de la imagen</label>
+            <input type="text" class="imagen" placeholder="Ingrese la url de la imagen">
+        </div>
+     
+        <div class="div_input_adm">
+            <label for="" class="label_admin">Categorias</label>
+            <input type="text" placeholder="Ingrese la categoria del producto">
+        </div>
+
+        <div class="div_input_adm">
+            <label for="" class="label_admin ">Nombre del Producto</label>
+            <input type="text" class="nombre" placeholder="Ingrese el nombre del producto">
+        </div>
+
+        <div class="div_input_adm">
+            <label for="" class="label_admin ">Precio</label>
+            <input type="number" class="precio" placeholder="Ingrese el precio del producto ">
+        </div>
+
+        <div class="div_input_adm">
+            <label for="" class="label_admin">Descripcion</label>
+            <input type="text" placeholder="Ingrese descripcion no mayor a dos palabras">
+        </div>
+
+        
+        <button class="btn_iniciar" type="submit" ><a href="productos.html">Agregar Producto</a></button>
+     </form>
+
+   </section>
+
+     <!------------------------------------------------------------------------
+                                     contacto
+        --------------------------------------------------------------------->
+
+        <section class="contacto">
+           <div class="uno">
+            <div class="cotacto_logo">
+                <img  class="img1" src="build/img/joystick.svg" alt="">
+                <img class="img2" src="build/img/alurageek.svg" alt="">
+            </div>
+
+            <ul class="contacto_ul">
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">politica de privacidad</a></li>
+                <li><a href="">Programa de fidelidad</a></li>
+                <li><a href="">Nuestras tiendas</a></li>
+                <li><a href="">Quiero ser franquiciado</a></li>
+                <li><a href="">Anunicie aqui</a></li>
+            </ul>
+           </div>
+
+            <div class="contacto_formulario">
+                <h3>Hable con nosotros</h3>
+                <form action="">
+                    <div class="div_formulario">
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="escribe tu nombre">
+                    </div>
+                    <div class="div_formulario">
+                        <label for="">Mensaje</label>
+                        <input type="text-area" placeholder="escribe tu mensaje">
+                    </div>
+
+                    <button class="btn_contacto">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+        </main>
+        <footer class="footer">
+            <p>Realizado por Nestor Martinez - 2022</p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.1/uuid.min.js" integrity="sha512-4JH7nC4nSqPixxbhZCLETJ+DUfHa+Ggk90LETm25fi/SitneSvtxkcWAUujvYrgKgvrvwv4NDAsFgdwCS79Dcw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/build/js/agregar_productos.js" ></script>
+        <!-- <script src="/build/js/actualizar_productos.js"></script> -->
+</body>
+</html>
